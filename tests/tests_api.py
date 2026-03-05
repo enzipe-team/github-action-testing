@@ -1,4 +1,4 @@
-from app import app
+from ..app import app
 
 def test_home():  # ✅ must start with test_
     client = app.test_client()
